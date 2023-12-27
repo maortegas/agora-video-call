@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import AgoraRTC, { createClient } from 'agora-rtc-sdk-ng';
 import { VideoPlayer } from './VideoPlayer';
 
-const APP_ID = '99ee7677a8a745ed94b7f7f03fdab53e';
+const APP_ID = '2a24a4f8abaf4f9c92deb4eeea252066';
 const TOKEN =
-  '00699ee7677a8a745ed94b7f7f03fdab53eIAC41k1WSRedMxTYBy711fVoEXD99OLwqQTXwzKZLks5bSKBCQIAAAAAEACggSnc+aWiYgEAAQAsqKJi';
-const CHANNEL = 'wdj';
+  '007eJxTYBCOW/VvlsKhArf9iV8jxDbxMlY++MxWURNrE2d+UEqZ744Cg1GikUmiSZpFYlJimkmaZbKlUUpqkklqamqikamRgZlZbW53akMgI8N5JhZGRgYIBPGZGXLzixkYAMVSHVA=';
+const CHANNEL = 'mos';
 
 AgoraRTC.setLogLevel(4);
 
